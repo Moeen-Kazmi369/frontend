@@ -33,8 +33,10 @@ const Home = () => {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 order01 mobile_img">
                   <figure>
-                    <img
-                      src="assets/images/hero_banner_img.svg"
+                    <Image
+                      src="/assets/images/hero_banner_img.svg"
+                      width={500}
+                      height={500}
                       alt=""
                       className="img-fluid"
                     />
@@ -52,8 +54,10 @@ const Home = () => {
               Over 1,000 Companies Love Hostiko
             </p>
             <figure className="partner_img">
-              <img
-                src="assets/images/partner_img.png"
+              <Image
+                src="/assets/images/partner_img.png"
+                width={500}
+                height={500}
                 alt=""
                 className="img-fluid"
               />
@@ -162,8 +166,10 @@ const Home = () => {
             <div className="row">
               <div className="col-xl-5 col-lg-5 col-md-5 welcome_section_img">
                 <figure>
-                  <img
-                    src="assets/images/welcome_section_img.svg"
+                  <Image
+                    src="/assets/images/welcome_section_img.svg"
+                    width={500}
+                    height={500}
                     alt=""
                     className="img-fluid"
                   />
@@ -333,8 +339,10 @@ const Home = () => {
               <div className="col hide_colum"></div>
               <div className="col-xl-4 col-lg-4 col-md-5 order_1 mobile_center_img search_domain_img">
                 <figure>
-                  <img
-                    src="assets/images/search_domain.svg"
+                  <Image
+                    src="/assets/images/search_domain.svg"
+                    width={500}
+                    height={500}
                     alt=""
                     className="img-fluid"
                   />
@@ -380,7 +388,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-3 col-md-3 no_padding padding_top_50 order_1 margin_box">
                     <div className="featured_box_img">
                       <figure>
-                        <img src="assets/images/featured_img01.png" alt="" />
+                        <Image
+                          src="/assets/images/featured_img01.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -402,7 +415,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-3 col-md-3 no_padding padding_top_50 order_1 margin_box">
                     <div className="featured_box_img">
                       <figure>
-                        <img src="assets/images/featured_img03.png" alt="" />
+                        <Image
+                          src="/assets/images/featured_img03.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -410,7 +428,9 @@ const Home = () => {
                 <div className="row">
                   <div className="col-xl-9 col-lg-9 col-md-9 no_padding order_2">
                     <div className="featured_box text-right">
-                      <div className="featured_box_heading">Maximum Security</div>
+                      <div className="featured_box_heading">
+                        Maximum Security
+                      </div>
                       <p>
                         Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur.
@@ -422,7 +442,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-3 col-md-3 no_padding padding_top_50 order_1 margin_box">
                     <div className="featured_box_img">
                       <figure>
-                        <img src="assets/images/featured_img05.png" alt="" />
+                        <Image
+                          src="/assets/images/featured_img05.png"
+                          height={500}
+                          width={500}
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -433,7 +458,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-3 col-md-3 no_padding padding_top_50 margin_box">
                     <div className="featured_box_img">
                       <figure>
-                        <img src="assets/images/featured_img02.png" alt="" />
+                        <Image
+                          src="/assets/images/featured_img02.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -455,7 +485,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-3 col-md-3 no_padding padding_top_50 margin_box">
                     <div className="featured_box_img">
                       <figure>
-                        <img src="assets/images/featured_img04.png" alt="" />
+                        <Image
+                          src="/assets/images/featured_img04.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -477,7 +512,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-3 col-md-3 no_padding padding_top_50 margin_box">
                     <div className="featured_box_img">
                       <figure>
-                        <img src="assets/images/featured_img06.png" alt="" />
+                        <Image
+                          src="/assets/images/featured_img06.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -513,8 +553,10 @@ const Home = () => {
               <div className="col-xl-6 col-lg-6 col-md-6 text-left first_blog_post">
                 <div className="first_blog_post_img_box">
                   <figure>
-                    <img
-                      src="assets/images/blog_post_img01.png"
+                    <Image
+                      src="/assets/images/blog_post_img01.png"
+                      width={500}
+                      height={500}
                       alt=""
                       className="img-fluid"
                     />
@@ -542,8 +584,10 @@ const Home = () => {
                   <div className="row">
                     <div className="col-xl-5 col-lg-5 col-md-5 col-5 inner_blog_post_box">
                       <figure className="">
-                        <img
-                          src="assets/images/blog_post_img02.png"
+                        <Image
+                          src="/assets/images/blog_post_img02.png"
+                          width={500}
+                          height={500}
                           alt=""
                           className=""
                         />
@@ -572,8 +616,10 @@ const Home = () => {
                   <div className="row">
                     <div className="col-xl-5 col-lg-5 col-md-5 col-5 inner_blog_post_box">
                       <figure className="">
-                        <img
-                          src="assets/images/blog_post_img03.png"
+                        <Image
+                          src="/assets/images/blog_post_img03.png"
+                          width={500}
+                          height={500}
                           alt=""
                           className=""
                         />
@@ -621,12 +667,22 @@ const Home = () => {
                   <ul className="carousel-indicators testimonial_indicators">
                     <li data-target="#testimonial_slider" data-slide-to="0">
                       <figure>
-                        <img src="assets/images/testimonial_img01.png" alt="" />
+                        <Image
+                          src="/assets/images/testimonial_img01.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </li>
                     <li data-target="#testimonial_slider" data-slide-to="1">
                       <figure>
-                        <img src="assets/images/testimonial_img02.png" alt="" />
+                        <Image
+                          src="/assets/images/testimonial_img02.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </li>
                     <li
@@ -635,17 +691,32 @@ const Home = () => {
                       className="active"
                     >
                       <figure>
-                        <img src="assets/images/testimonial_img05.png" alt="" />
+                        <Image
+                          src="/assets/images/testimonial_img05.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </li>
                     <li data-target="#testimonial_slider" data-slide-to="3">
                       <figure>
-                        <img src="assets/images/testimonial_img04.png" alt="" />
+                        <Image
+                          src="/assets/images/testimonial_img04.png"
+                          width={500}
+                          height={500}
+                          alt=""
+                        />
                       </figure>
                     </li>
                     <li data-target="#testimonial_slider" data-slide-to="4">
                       <figure>
-                        <img src="assets/images/testimonial_img03.png" alt="" />
+                        <Image
+                          src="/assets/images/testimonial_img03.png"
+                          alt=""
+                          width={500}
+                          height={500}
+                        />
                       </figure>
                     </li>
                   </ul>
@@ -654,8 +725,10 @@ const Home = () => {
                   <div className="carousel-inner">
                     <div className="carousel-item testimonial_box_content">
                       <figure className="margin_bottom_15">
-                        <img
-                          src="assets/images/testimonial_quotes.png"
+                        <Image
+                          src="/assets/images/testimonial_quotes.png"
+                          width={500}
+                          height={500}
                           alt=""
                         />
                       </figure>
@@ -673,8 +746,10 @@ const Home = () => {
                     </div>
                     <div className="carousel-item testimonial_box_content">
                       <figure className="margin_bottom_15">
-                        <img
-                          src="assets/images/testimonial_quotes.png"
+                        <Image
+                          src="/assets/images/testimonial_quotes.png"
+                          width={500}
+                          height={500}
                           alt=""
                         />
                       </figure>
@@ -692,8 +767,10 @@ const Home = () => {
                     </div>
                     <div className="carousel-item active testimonial_box_content">
                       <figure className="margin_bottom_15">
-                        <img
-                          src="assets/images/testimonial_quotes.png"
+                        <Image
+                          src="/assets/images/testimonial_quotes.png"
+                          width={500}
+                          height={500}
                           alt=""
                         />
                       </figure>
@@ -711,8 +788,10 @@ const Home = () => {
                     </div>
                     <div className="carousel-item testimonial_box_content">
                       <figure className="margin_bottom_15">
-                        <img
-                          src="assets/images/testimonial_quotes.png"
+                        <Image
+                          src="/assets/images/testimonial_quotes.png"
+                          width={500}
+                          height={500}
                           alt=""
                         />
                       </figure>
@@ -730,8 +809,10 @@ const Home = () => {
                     </div>
                     <div className="carousel-item testimonial_box_content">
                       <figure className="margin_bottom_15">
-                        <img
-                          src="assets/images/testimonial_quotes.png"
+                        <Image
+                          src="/assets/images/testimonial_quotes.png"
+                          width={500}
+                          height={500}
                           alt=""
                         />
                       </figure>

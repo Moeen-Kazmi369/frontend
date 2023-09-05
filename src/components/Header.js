@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import HamburgerMenu from "./HambugerMenu";
+import { useGlobalState } from "./GlobalStateProvider";
 const titles = [
   "CodeMastersHub",
   "DevConnectPro",
@@ -28,6 +30,7 @@ const Header = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [displayedtitle, setDisplayedtitle] = useState(titles[currentIndex]);
   const [showAnimation, setShowAnimation] = useState(false);
+  const{isOpenMenu} = useGlobalState()
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -73,9 +76,9 @@ const Header = () => {
             {/* <span className="text-black -mt-6 ml-6 font-medium w-full text-xs">HUNTER CODER</span> */}
             </div>
             <div className='block lg:hidden z-50'>
-          Menu
+          <HamburgerMenu/>
             </div>
-            <div className={`hidden right-0 z-40 lg:hidden bg-white py-5 px-6 h-[400px] top-0`}>
+            <div className={`${isOpenMenu? 'fixed':'hidden'} right-0 z-40 lg:hidden bg-white py-5 px-6 h-[400px] top-0`}>
             <ul className="flex flex-col h-full lg:hidden justify-between lg:w-[70%] items-center text-[18px] font-semibold">
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
                 <Link href="/">Home</Link>
@@ -125,7 +128,7 @@ const Header = () => {
                 </div>
               </ul>
             </div>
-            <ul className="lg:flex justify-around lg:w-[70%] items-center text-[18px] font-semibold">
+            <ul className="hidden md:hidden lg:flex justify-around lg:w-[70%] items-center text-[18px] font-semibold">
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
                 <Link href="/">Home</Link>
               </li>
