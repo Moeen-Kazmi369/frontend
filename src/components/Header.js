@@ -62,17 +62,27 @@ const Header = () => {
           transform: translateX(0) translateY(0);
           opacity: 1;
         }
+        .custom_background{
+          background: black; /* Old browsers */
+          background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        }
         
         `
       }
     </style>
-      <section className="flex lg:justify-center justify-between ">
+      <section className="flex lg:justify-center justify-between custom_background ">
         <div className="self-center w-full max-w-7xl">
           <div className="flex lg:flex-row justify-between items-center border-b-2">
-            <div className="w-[25%] flex flex-col">
-            <h1 className={`uppercase pl-5 py-4 text-xl font-sans font-bold  animate-title ${showAnimation ? 'animate-slide' : ''}`}>
-              {displayedtitle}
-            </h1>
+            <div className="w-[25%] p-2">
+            <Image
+            src={'/logo.png'}
+            width={500}
+            height={500}
+            alt="logo"
+            className="h-full w-[300px]"
+            />
             {/* <span className="text-black -mt-6 ml-6 font-medium w-full text-xs">HUNTER CODER</span> */}
             </div>
             <div className='block lg:hidden z-50'>
@@ -80,21 +90,21 @@ const Header = () => {
             </div>
             <div className={`${isOpenMenu? 'fixed':'hidden'} right-0 z-40 lg:hidden bg-white py-5 px-6 h-[400px] top-0`}>
             <ul className="flex flex-col h-full lg:hidden justify-between lg:w-[70%] items-center text-[18px] font-semibold">
-              <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/">Home</Link>
+              <li className="hover:underline underline-offset-4 hover:test decoration-2 decoration-black py-2 rounded-lg px-5">
+                <Link href="/" className="hover:text-black">Home</Link>
               </li>
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/about">About</Link>
+                <Link href="/about" className="hover:text-black">About</Link>
               </li>
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/services">Services</Link>
+                <Link href="/services" className="hover:text-black">Services</Link>
               </li>
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact" className="hover:text-black">Contact</Link>
               </li>
               <button
-                className="hover:bg-black hover:text-white bg-white border border-gray-800 py-1 rounded-lg px-3">
-                <Link href="#" className="flex">Login Now</Link>
+                className="hover:bg-black bg-white border border-gray-800 py-1 rounded-lg px-3">
+                <Link href="/login" className="flex hover:text-black">Login Now</Link>
               </button>
              <div>
              {" "}
@@ -130,20 +140,20 @@ const Header = () => {
             </div>
             <ul className="hidden md:hidden lg:flex justify-around lg:w-[70%] items-center text-[18px] font-semibold">
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/">Home</Link>
+                <Link href="/" className="hover:text-white">Home</Link>
               </li>
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/about">About</Link>
+                <Link href="/about" className="hover:text-white">About</Link>
               </li>
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/services">Services</Link>
+                <Link href="/services" className="hover:text-white">Services</Link>
               </li>
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact" className="hover:text-white">Contact</Link>
               </li>
               <button 
-                className="hover:bg-black hover:text-white bg-white border border-gray-800 py-1 rounded-lg px-3">
-                <Link href="#" className="flex">Login Now</Link>
+                className="hover:bg-black bg-white border border-gray-800 py-1 rounded-lg px-3">
+                <Link href="/login" className="flex hover:text-black">Login Now</Link>
               </button>
             </ul>
           </div>

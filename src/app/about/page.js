@@ -167,22 +167,6 @@ const Page = () => {
     </div>
 </section>
 {/* <!--Ends Here--> */}
-{/* <!--Build Your Website--> */}
-<section className="padding_top_60 padding_bottom_60 text-center">
-    <div className="container">
-        <div className="coa_block">
-            <h2 className="margin_bottom_20 font_size_36 line_height_48 color_222">Build Your Website with Hostiko</h2>
-            <p className="margin_bottom_40">From professional business to enterprise, we've got you covered!</p>
-            <a href="#" className="learn-more">
-                <div className="circle">
-                    <span className="icon arrow"></span>
-                </div>
-                <p className="button-text">Get Started Now</p>
-            </a>
-        </div>
-    </div>
-</section>
-{/* <!--Ends Here--> */}
 {/* <!--Footer Section--> */}
 <div id="default_footer"></div>
 {/* <!--Ends Here--> */}

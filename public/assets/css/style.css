@@ -124,10 +124,10 @@ figure{margin: 0}
 
 /*Background Colors*/
 .bg_gradient {
-    background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #414141; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .bg_fff {background-color: #fff}
 .bg_ecedf1   {background-color: #ecedf1}
@@ -318,10 +318,10 @@ a.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-radius: 1.625rem;
 }
 a.learn-more .circle .icon {
@@ -483,10 +483,10 @@ a.learn-more:hover .button-text {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-radius: 1.625rem;
 }
 .inner_btn_dedicated_plan_box:hover .circle{background: #fff}
@@ -569,10 +569,10 @@ button.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-radius: 1.625rem;
 }
 button.learn-more .circle .icon {
@@ -634,23 +634,23 @@ button.learn-more:hover .button-text {
 ====================================== */
 
 
-.guarantee_box:hover{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.guarantee_box:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .guarantee_box:hover .guarantee_box_heading, .guarantee_box:hover p{color: #fff}
 .guarantee_box:hover .guarantee_img01{background: url("../images/hover_guarantee_img01.png")}
 .guarantee_box:hover .guarantee_img02{background: url("../images/hover_guarantee_img02.png")}
 .guarantee_box:hover .guarantee_img03{background: url("../images/hover_guarantee_img03.png")}
 .guarantee_box:hover .guarantee_img04{background: url("../images/hover_guarantee_img04.png")}
-.domain_listing li:hover{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; color: #fff}
-.featured_box:hover{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.domain_listing li:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; color: #fff}
+.featured_box:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .featured_box:hover .featured_box_heading, .featured_box:hover p{color: #fff}
 .top_navigation .navbar-nav li a:hover{color: #ff007e}
 .footer_links li a:hover{color: #ff007e}
@@ -672,10 +672,10 @@ button.learn-more:hover .button-text {
 .top_navigation .navbar-nav li:last-child a{margin-right: 0}
 
 .navigation_bar{margin-left: 6%}
-.bg_social_icon{width: 40px; height: 40px; border-radius: 100%; background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; display: table}
+.bg_social_icon{width: 40px; height: 40px; border-radius: 100%;     background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; display: table}
 .bg_social_icon i{display: table-cell; vertical-align: middle; text-align: center; font-size: 18px; color: #fff}
 .top_navigation .dropdown .hosting_dropdown a{margin: 0}
 .dropdown .hosting_dropdown{width: auto; border: none; left: 0}
@@ -750,10 +750,10 @@ button.learn-more:hover .button-text {
     padding: 9px 12px;
     border-radius: 32px;
     color: #fff;
-    background: #1633ff;
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%);
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%);
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%);
+    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #accordion .card-header button[aria-expanded="false"]:before {
@@ -787,10 +787,10 @@ button.learn-more:hover .button-text {
 .discount_tag span{ font-size: 16px; line-height: 24px; color: #5a5f69}
 .hosting_plan_listing li{font-size: 16px; line-height: 30px; color: #5a5f69}
 .hosting_plan_listing{margin-bottom: 30px; margin-top: 30px}
-.hosting_plan_box.active{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.hosting_plan_box.active{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .hosting_plan_box.active .hosting_plan_name, .hosting_plan_box.active .hosting_plan_box_price, .hosting_plan_box.active .hosting_plan_box_price span, .hosting_plan_box.active .discount_tag, .hosting_plan_box.active .discount_tag span, .hosting_plan_box.active .hosting_plan_listing li{color: #fff}
 .tag_line{position: relative}
 .tag_line:before{position: absolute; content: ""; background: url("../images/smile_face.png"); width: 25px; height: 24px; left: 27%; top: 0}
@@ -815,10 +815,10 @@ button.learn-more:hover .button-text {
 .company_box03:before{position: absolute; content: ""; background: url("../images/company_img03.png"); width: 63px; height: 46px; left: 0; right: 0; margin: 0 auto; top: 25%}
 .company_detail_heading{display: table-cell; vertical-align: middle; font-size: 20px; line-height: 28px; color: #222; padding-top: 60px}
 .reseller_hosting_feature_img figure{width: 190px}
-.company_box01:hover, .company_box02:hover, .company_box03:hover{background: #342cee; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #342cee 0%, #a913ae 100%);
-    background: -webkit-linear-gradient(-45deg, #342cee 0%,#a913ae 100%);
-    background: linear-gradient(135deg, #342cee 0%,#a913ae 100%);
+.company_box01:hover, .company_box02:hover, .company_box03:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .company_box01:hover:before{background: url("../images/hover_company_img01.png")}
 .company_box02:hover:before{background: url("../images/hover_company_img02.png")}
@@ -841,10 +841,10 @@ button.learn-more:hover .button-text {
     Search Domain Section
 ====================================== */
 .search_box{width: 100%; height: 80px; position: relative; display: inline-block; margin-bottom: 30px}
-.search_btn{position: absolute; right: 20px; top: 13px; width: 40px; height: 40px; font-size: 14px !important; font-weight: 700; color: #fff !important; transition-duration: 0.5s; line-height: 1; border: none; border-radius: 100%; background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.search_btn{position: absolute; right: 20px; top: 13px; width: 40px; height: 40px; font-size: 14px !important; font-weight: 700; color: #fff !important; transition-duration: 0.5s; line-height: 1; border: none; border-radius: 100%;     background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .search_btn:focus{outline: none}
 .search_area{width: 100%; height: 100px; position: relative}
 .search_box .text_field{width: 100%; font-size: 18px; line-height: 36px; height: 65%; padding: 0 30px; box-shadow: 0 0 30px 3px rgba(0,0,0,.07); border: 1px solid #f1f1f1; font-weight: 400; border-radius: 32px}
@@ -861,8 +861,14 @@ button.learn-more:hover .button-text {
     ====================================== */
 .featured_box{background-color: #fff; box-shadow: 0 0 30px 2px rgba(0,0,0,.07); padding: 40px; text-align: right}
 .featured_box_heading{font-size: 20px; line-height: 24px; color: #222; margin-bottom: 20px}
-.featured_box_img{width: 81px; height: 81px; border-radius: 100%; background: #1633ff; /* Old browsers */ background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; margin: 0 auto; display: table; position: relative}
-.feature_box_img{width: 81px; height: 81px; border-radius: 100%; background: #1633ff; /* Old browsers */ background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; margin: 0 auto; display: table; position: relative; margin-bottom: 25px}
+.featured_box_img{width: 81px; height: 81px; border-radius: 100%;    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; margin: 0 auto; display: table; position: relative}
+.feature_box_img{width: 81px; height: 81px; border-radius: 100%;     background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; margin: 0 auto; display: table; position: relative; margin-bottom: 25px}
 .featured_box_img figure, .feature_box_img figure{display: table-cell; vertical-align: middle; text-align: center}
 .featured_box_img:before{position: absolute; content: ""; background-color: #1633ff; width: 30px; height: 2px; left: -30px; top: 50%}
 .featured_box_img:after{position: absolute; content: ""; background-color: #ff007e; width: 30px; height: 2px; right: -30px; top: 50%}
@@ -910,10 +916,10 @@ button.learn-more:hover .button-text {
 .footer_social_links li{display: inline-block; padding: 0 3px}
 .footer_social_links li:first-child{padding-left: 0}
 .footer_social_links li:last-child{padding-right: 0}
-.footer_social_links li a{width: 40px; height: 40px; border-radius: 100%; display: table; background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.footer_social_links li a{width: 40px; height: 40px; border-radius: 100%; display: table;     background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .footer_social_links li a i{display: table-cell; vertical-align: middle; text-align: center; color: #fff; font-size: 16px}
 .footer_social_links li a:hover {background: #fff; box-shadow: 0 0 30px 7px rgba(0,0,0,.07)}
 .footer_social_links li a:hover i{color: #5a5f69}
@@ -1095,10 +1101,10 @@ td.default {
 .software_box_img05{background: url("../images/software_img05.png"); width: 42px; height: 43px; margin: 0 auto}
 .software_box_img06{background: url("../images/software_img06.png"); width: 30px; height: 43px; margin: 0 auto}
 .software_box_name{font-size: 16px; line-height: 24px; color: #5a5f69}
-.software_box:hover{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.software_box:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .software_box:hover .software_box_img01{background: url("../images/hover_software_img01.png"); width: 38px; height: 43px}
 .software_box:hover .software_box_img02{background: url("../images/hover_software_img02.png"); width: 42px; height: 43px}
 .software_box:hover .software_box_img03{background: url("../images/hover_software_img03.png"); width: 36px; height: 43px}
@@ -1111,10 +1117,10 @@ td.default {
 ====================================== */
 .domain_offer_box{background-color: #fff; box-shadow: 0 0 30px 7px rgba(0,0,0,.07); padding: 40px; border-radius: 6px}
 .domain_name{font-size: 36px; line-height: 48px; color: #222}
-.domain_offer_box.active{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+.domain_offer_box.active{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .domain_offer_box.active .domain_name{color: #fff}
 .domain_offer_box.active p, .domain_offer_box.active strike{color: #fff}
@@ -1133,10 +1139,10 @@ td.default {
 .hosting_counter_box_img03{background: url("../images/hosting_counter_img03.png"); width: 53px; height: 46px; margin:  0 auto; margin-bottom: 25px}
 .hosting_counter_box_img04{background: url("../images/hosting_counter_img04.png"); width: 63px; height: 46px; margin:  0 auto; margin-bottom: 25px}
 .hosting_counter_box:hover{
-    background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .hosting_counter_box:hover .hosting_counter_box_img01{background: url("../images/hover_hosting_counter_img01.png"); width: 49px; height: 46px}
 .hosting_counter_box:hover .hosting_counter_box_img02{background: url("../images/hover_hosting_counter_img02.png"); width: 56px; height: 46px}
@@ -1154,10 +1160,10 @@ td.default {
 .team_member_box:hover{background-color: #fff; box-shadow:  0 0 30px 7px rgba(0,0,0,.07)}
 .team_members_listing li a{width: 40px; height: 40px; background-color: #fff; border-radius: 100%; display: table; box-shadow: 0 0 15px 7px rgba(0,0,0,.07)}
 .team_members_listing li a i{display: table-cell; vertical-align: middle; text-align: center; font-size: 20px; color: #5a5f69}
-.team_members_listing li a:hover{background: #1633ff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+.team_members_listing li a:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .team_members_listing li a:hover i{color: #fff}
 /* ===================================
       Contact Box
@@ -1174,18 +1180,18 @@ td.default {
 .contact_box_image03{background: url("../images/contact_us_img03.png"); width: 40px; height: 38px; margin:  0 auto}
 .contact_box_name{font-size: 20px; line-height: 28px; color: #222}
 .contact_us_box{background-color: #fff; box-shadow: 0 0 30px 7px rgba(0,0,0,.07); padding: 80px 0; min-height: 268px; border-radius: 4px}
-.contact_us_box:hover{background: #1633ff;
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%);
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%);
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%)}
+.contact_us_box:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .contact_us_box:hover .contact_us_box_heading{color: #fff}
 .contact_us_box:hover p{color: #fff}
 .contact_us_box_heading{font-size: 20px; line-height: 24px; color: #222}
 .contact_fields{border: none; border-radius: 32px; padding: 20px 30px; box-shadow: 0 0 30px rgba(0,0,0,.07)}
-.contact_box:hover{background: #1633ff;
-    background: -moz-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%);
-    background: -webkit-linear-gradient(-45deg, #1633ff 0%, #ff007e 100%);
-    background: linear-gradient(135deg, #1633ff 0%, #ff007e 100%);}
+.contact_box:hover{    background: black; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #414141 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #414141 0%, #000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #414141 0%, #000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
 .contact_box:hover .contact_box_image01{background: url("../images/hover_contact_us_img01.png"); width: 37px; height: 38px}
 .contact_box:hover .contact_box_image02{background: url("../images/hover_contact_us_img02.png"); width: 37px; height: 38px}
 .contact_box:hover .contact_box_image03{background: url("../images/hover_contact_us_img03.png"); width: 40px; height: 38px}

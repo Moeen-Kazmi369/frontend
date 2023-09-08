@@ -14,22 +14,22 @@ const HamburgerMenu = () => {
       }}
     >
       <div
-        className={`${genericHamburgerLine} ${
+        className={` ${genericHamburgerLine} ${
           isOpenMenu
-            ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
-            : "opacity-50 group-hover:opacity-100"
+            ? "rotate-45 bg-black translate-y-3 opacity-50 group-hover:opacity-100"
+            : "opacity-50 bg-white group-hover:opacity-100"
         }`}
       />
       <div
-        className={`${genericHamburgerLine} ${
-          isOpenMenu ? "opacity-0" : "opacity-50 group-hover:opacity-100"
+        className={` ${genericHamburgerLine} ${
+          isOpenMenu ? "opacity-0 bg-black" : "opacity-50 bg-white group-hover:opacity-100"
         }`}
       />
       <div
-        className={`${genericHamburgerLine} ${
+        className={` ${genericHamburgerLine} ${
           isOpenMenu
-            ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
-            : "opacity-50 group-hover:opacity-100"
+            ? "-rotate-45 -translate-y-3 opacity-50 bg-black group-hover:opacity-100"
+            : "opacity-50 group-hover:opacity-100 bg-white"
         }`}
       />
     </button>

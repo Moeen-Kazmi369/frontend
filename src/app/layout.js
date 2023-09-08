@@ -10,6 +10,7 @@ import '../../public/assets/css/style.css';
 import '../../public/assets/css/responsive.css';
 import '../../public/assets/images/favicon.png';
 import GlobalStateProvider from "@/components/GlobalStateProvider";
+import Social_Icons from "@/components/Social_Icons";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       <GlobalStateProvider>
         <Header/>
+        <Social_Icons/>
         {children}
         <Footer/>
         </GlobalStateProvider>

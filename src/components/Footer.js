@@ -22,23 +22,40 @@ const Footer = () => {
                   Designingmedia
                 </a>
               </div>
-              <ul className="footer_social_links">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-pinterest-p"></i>
-                  </a>
-                </li>
-              </ul>
+              <div className=" w-full flex space-x-1 items-start">
+              {" "}
+              <a
+                href="#"
+                className="rounded-full w-6 h-6 bg-black text-white text-center pt-[3px] md:p-0"
+              >
+                <i className="fa fa-twitter"></i>
+              </a>{" "}
+              <a
+                href="#"
+                className="rounded-full w-6 h-6 bg-[#f04f65] text-white text-center pt-[3px] md:p-0"
+              >
+                <i className="fa fa-instagram"></i>
+              </a>
+              {" "}
+              <a
+                href="#"
+                className="rounded-full w-6 h-6 bg-blue-500 text-white text-center pt-[3px] md:p-0"
+              >
+                <i className="fa fa-facebook"></i>
+              </a>{" "}
+              <a
+                href="#"
+                className="rounded-full w-6 h-6 bg-blue-500 text-white text-center pt-[3px] md:p-0"
+              >
+                <i className="fa fa-linkedin"></i>
+              </a>{" "}
+              <a
+                href="#"
+                className="rounded-full w-6 h-6 bg-green-500 text-white text-center pt-[3px] md:p-0"
+              >
+                <i className="fa fa-whatsapp"></i>
+              </a>{" "}
+              </div>
             </div>
             <div className="col disable_links empty_column"></div>
             <div className="col-xl-2 col-lg-2 col-md-3 disable_links">
