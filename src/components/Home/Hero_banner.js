@@ -9,9 +9,8 @@ const Hero_banner = () => {
             <div className="container">
               <div className="row mobile_banner_margin">
                 <div className="col-xl-6 col-lg-6 col-md-6  padding_top_200 order02 mobile_text_center">
-                  <h1 className="font_size_48 line_height_60 color_222 margin_bottom_30">
+                  <h1 className="text-[1.8rem] md:text-[3rem] color_222 margin_bottom_30">
                     Fastest Performance
-                    <br />
                     Web Hosting
                   </h1>
                   <p className="font_size_18 line_height_30 color_5a5f69 margin_bottom_50 font_weight_500">

@@ -1,4 +1,5 @@
 import React from "react";
+import {RiTwitterXLine} from 'react-icons/ri'
 
 const Footer = () => {
   return (
@@ -22,13 +23,13 @@ const Footer = () => {
                   Designingmedia
                 </a>
               </div>
-              <div className=" w-full flex space-x-1 items-start">
+              <div className=" w-full flex space-x-1 justify-center md:justify-start">
               {" "}
               <a
                 href="#"
-                className="rounded-full w-6 h-6 bg-black text-white text-center pt-[3px] md:p-0"
+                className="rounded-full w-6 h-6 bg-black text-white text-center p-[5px]"
               >
-                <i className="fa fa-twitter"></i>
+                <RiTwitterXLine/>
               </a>{" "}
               <a
                 href="#"

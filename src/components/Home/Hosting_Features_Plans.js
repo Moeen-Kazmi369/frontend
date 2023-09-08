@@ -26,18 +26,18 @@ const Hosting_Features_Plans = () => {
               </div>
               <div className="col"></div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <div className="row margin_bottom_40">
-                  <div className="col-xl-4 col-lg-4 col-md-4 col-4">
+                <div className="flex flex-col pl-[35vw] sm:pl-0 justify-center items-center sm:flex-row margin_bottom_40">
+                  <div className="w-full md:w-1/3">
                     <div className="company_box01 hover_effect">
                       <div className="company_detail_heading">History</div>
                     </div>
                   </div>
-                  <div className="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div className="w-full md:w-1/3">
                     <div className="company_box02 hover_effect">
                       <div className="company_detail_heading">Vision</div>
                     </div>
                   </div>
-                  <div className="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div className="w-full md:w-1/3">
                     <div className="company_box03 hover_effect">
                       <div className="company_detail_heading">Mission</div>
                     </div>

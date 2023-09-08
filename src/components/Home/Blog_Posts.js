@@ -44,8 +44,8 @@ const Blog_Posts = () => {
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6 text-left">
                 <div className="blog_post_box margin_bottom_35">
-                  <div className="row">
-                    <div className="col-xl-5 col-lg-5 col-md-5 col-5 inner_blog_post_box">
+                  <div className="flex flex-col md:flex-row">
+                    <div className="w-full md:w-1/2">
                       <figure className="">
                         <Image
                           src="/assets/images/blog_post_img02.png"
@@ -56,7 +56,7 @@ const Blog_Posts = () => {
                         />
                       </figure>
                     </div>
-                    <div className="col-xl-7 col-lg-7 col-md-7 col-7 outer_content_blog_post_box">
+                    <div className="w-full md:w-1/2">
                       <div className="content_blog_post_box">
                         <div className="font_size_14 line_height_24 color_ff007e margin_bottom_10">
                           January 01, 2018
@@ -76,8 +76,8 @@ const Blog_Posts = () => {
                   </div>
                 </div>
                 <div className="blog_post_box">
-                  <div className="row">
-                    <div className="col-xl-5 col-lg-5 col-md-5 col-5 inner_blog_post_box">
+                  <div className="flex flex-col md:flex-row">
+                    <div className="w-full md:w-1/2">
                       <figure className="">
                         <Image
                           src="/assets/images/blog_post_img03.png"
@@ -88,7 +88,7 @@ const Blog_Posts = () => {
                         />
                       </figure>
                     </div>
-                    <div className="col-xl-7 col-lg-7 col-md-7 col-7 outer_content_blog_post_box">
+                    <div className="w-full md:w-1/2">
                       <div className="content_blog_post_box">
                         <div className="font_size_14 line_height_24 color_ff007e margin_bottom_10">
                           January 01, 2018

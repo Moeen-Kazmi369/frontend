@@ -12,7 +12,7 @@ const Page = () => {
                     <h1 className="font_size_48 line_height_60 color_222 margin_bottom_20 ">Contact Us</h1>
                     <p className="font_size_18 line_height_30 color_5a5f69 margin_bottom_50 ">Hostiko is a global provider company of web hosting and
                         related services in all over the world.</p>
-                    <div className="row text-center">
+                    <div className="flex flex-col sm:flex-row justify-center items-center text-center">
                         <div className="col-xl-4 col-lg-4 col-md-4 col-4">
                             <div className="contact_box">
                                 <div className="contact_box_image01"></div>
