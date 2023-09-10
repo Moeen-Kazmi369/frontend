@@ -32,7 +32,7 @@ const Page = () => {
                   cillum dolore eu fugiat nulla pariatur.
                 </p>
               </div>
-              <div className="col-xl-6 col-lg-6 col-md-6 sub_page_banner_img order01">
+              <div className="w-full md:w-1/2">
                 <Login/>
               </div>
             </div>
