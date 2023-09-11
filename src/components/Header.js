@@ -36,7 +36,8 @@ const Header = () => {
       <section className="flex lg:justify-center justify-between custom_background ">
         <div className="self-center w-full max-w-7xl">
           <div className="flex lg:flex-row justify-between items-center border-b-2">
-            <div className="p-2">
+           <Link href={'/'}>
+           <div className="p-2">
             <Image
             src={'/logo.png'}
             width={500}
@@ -45,6 +46,7 @@ const Header = () => {
             className="h-[3.5rem] w-[10rem]"
             />
             </div>
+           </Link>
             <div className='block lg:hidden z-50'>
           <HamburgerMenu/>
             </div>
