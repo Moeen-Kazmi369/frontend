@@ -106,7 +106,7 @@ const Header = () => {
               <li className="hover:underline underline-offset-4 decoration-2 decoration-black py-2 rounded-lg px-5">
                 <Link href="/contact" className="hover:text-white">Contact</Link>
               </li>
-              <Link href="/login" className="hover:bg-black bg-white border border-gray-800 py-1 rounded-lg px-3">
+              <Link href="/appointment" className="hover:bg-black bg-white border border-gray-800 py-1 rounded-lg px-3">
                 Login Now
               </Link>
             </ul>
